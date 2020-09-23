@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>借款详情</h1>
+    <p>
+        用户账号: <span id="userid"></span>
+    </p>
+    <p>
+        借款金额: <span id="borrowmoney"></span>
+    </p>
+    <p>
+        借款期限: <span id="borrowtime"></span>
+    </p>
+    <p>
+        借款标题: <span id="title"></span>
+    </p>
+    <p>
+        借款利息: <span id="interest"></span>
+    </p>
+    <p>
+        借款详情: <span id="info"></span>
+    </p>
+
+    <div>
+        <p>
+            投资金额:
+            <input id="chargemoney" type="text">
+        </p>
+        <button id="chargeBtn" class="btn btn-primary">投资</button>
+    </div>
+</div>
+
+<script src="../../js/borrowinfo.js"></script>

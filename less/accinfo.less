@@ -1,0 +1,60 @@
+.accT{
+    width: 100%;
+    color: coral;
+    background-color:rgb(128, 86, 177);
+    color: #fff;
+    padding: 5px;
+}
+.accitemL{
+    width: 50%;
+    p{
+        line-height: 30px;
+    }
+    .btn{
+        margin-top: 20px;
+        background-color:rgb(145, 92, 167);
+        border: 0;
+        a{
+            color: #fff;
+        }
+    }
+}
+  /* 特效5 */
+  .box4 li {
+    list-style:none;
+}
+.product {
+    width: 400px;
+    padding: 15px;
+    position: relative;
+    img {
+        display: block;
+        position: relative;
+        cursor:pointer;
+        width:370px;
+    }
+    .product-hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        background-size: 30px 30px;
+        background-image: linear-gradient(45deg, rgb(141, 74, 161) 25%, transparent 25%, transparent 50%,  rgb(132, 62, 160),  rgb(156, 71, 177), transparent 75%, transparent);
+        animation: barberpole 0.5s linear infinite;
+    }
+    &:hover .product-hover {
+        /* 透明度就为100% */
+        opacity: 1;
+    }
+}
+@keyframes barberpole {
+    from {
+    background-position: 0 0;
+    }
+    to {
+        background-position: 60px 30px;
+    }
+}

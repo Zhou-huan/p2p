@@ -1,0 +1,129 @@
+<!-- index.min.css -->
+<link rel="stylesheet" href="../dist/css/myaccount.min.css">
+<!-- 引入阿里巴巴矢量图 -->
+<link rel="stylesheet" href="../lib/阿狸巴巴/css/iconfont.css">
+<div class="my__box container">
+    <div class="my__left pull-left clearfix">
+        <div class="clearfix">
+            <div class="account iconfont icon-yonghu pull-left clearfix">
+
+            </div>
+            <div class="left__txt pull-right clearfix">
+                <p id="myid">xxxxx
+
+
+                </p>
+                <span>未开通会员</span>
+            </div>
+        </div>
+        <nav>
+            <li>
+                <a href="#/myaccount">
+                    <span class="iconfont icon-qian"></span>账户总览</a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="iconfont icon-qian"></span>我的出借</a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="iconfont icon-qian"></span>资金记录</a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="iconfont icon-qianmoney113
+                    "></span>我的佣金</a>
+            </li>
+
+            <li>
+                <a href="">
+                    <span class="iconfont icon-xinxi"></span>我的信息</a>
+            </li>
+            <li>
+                <a href="#/myaccount/amend">
+                    <span class="iconfont icon-profilesetting
+                    "></span>更改信息</a>
+            </li>
+            <li>
+                <a href="#/myaccount/recharge">
+                    <span class="iconfont icon-biaoqing "></span>官方充值</a>
+            </li>
+        </nav>
+    </div>
+
+    <div class="my__right pull-right">
+        <h3 class="">
+            个人账户
+        </h3>
+        <p class="img ">
+
+        </p>
+        <div class="center__left">
+            <div class="left__left pull-left">
+                <p class="corsa">总资产(元) </p>
+                <p>累计收益(元)</p>
+                <br/>
+
+                <span class="assets" id="totalmoney">0.00</span>
+                <span class="earnings ">0.00</span>
+            </div>
+            <div class="left__right ">
+                <div class="right__top">
+                    <div class="text pull-left">
+                        <p class="balance">可用余额 (元)</p>
+                        <p class="amount" id="usablemoney">0.00
+                        </p>
+                        <p class="freezing">冻结
+                        </p>
+                        <p id="blockedmoney">0.00</p>
+                    </div>
+                    <form action="" class="pull-right">
+                        <a href="#/myaccount/recharge">
+                            <input type="button" value="充值" class="btn btn-warning ">
+                        </a>
+                        <button type="button" class="btn btn-info">体现</button>
+                    </form>
+                </div>
+                <div class="right__bottom">
+                    <ul class="ul__principal">
+                        <li class="ul__duein ">
+                            <p>待收/出借本金 (元)</p>
+                            <p class="duein ft18 mar0">0.00</p>
+                        </li>
+                        <li class="ul__income">
+                            <p>待应计收益 (元)</p>
+                            <p class="income ft18 mar0">0.00</p>
+                        </li>
+                        <li class="ul__estimate ">
+                            <p>预估待收收益 (元)</p>
+                            <p class="estimate ft18 mar0">0.00</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right__btm">
+            <div class="mymessage">
+                <ul>
+                    <li>账户:
+                        <span id="nickname"></span>
+                    </li>
+                    <li>昵称:
+                        <span id="username"></span>
+                    </li>
+                    <li>最后登录时间:
+                        <span id="lastlogintime">
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <h3>
+                回款项目
+            </h3>
+            <p> 暂无记录 </p>
+        </div>
+    </div>
+</div>
+
+
+<script src="../js/myaccount.js"></script>

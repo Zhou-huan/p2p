@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="../../dist/css/accinfo.min.css">
+<h3 class="accT">账户信息</h3>
+<div class="accitemL pull-left">
+    <p class="text-danger"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp;用户名： <span id="username"></span></p>
+    <p>昵称: <span id="nickname"></span></p>
+    <p><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span>&nbsp;最后登录时间: 
+            <span id="lastlogintime"></span></p>
+    
+    <hr>
+    
+    <p><span class="glyphicon glyphicon-yen" aria-hidden="true"></span>&nbsp;总金额: <span id="totalmoney"></span> (元)</p>
+    <p>可用金额: <span id="usablemoney"></span> (元)</p>
+    <span>冻结金额: <span id="blockedmoney"></span> (元)</span><br>
+    <button class="btn btn-success"> <a href="#/personal/card">马上充值</a> </button>
+</div>
+<div class="accitemR pull-right">
+        <ul class="box4">
+                <li class="product">
+                    <div class="product-hover"></div>
+                    <img src="../../images/gongfuxiongmao.jpg" alt="">
+                </li>
+            </ul>
+</div>
+<!-- 加载accinfo.js -->
+<script src="../../js/personal/accinfo.js"></script>

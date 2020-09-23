@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="../../dist/css/risk.min.css">
+
+<div class="risk__box">
+    <h4>风险管理架构</h4>
+    <img src="../../images/rirk-1.png" alt="">
+    <h4>风险评估流程</h4>
+    <img src="../../images/rirk-2.png" alt="">
+    <h4>风险预警管理
+    </h4>
+    <img src="../../images/rirk-3.png" alt="">
+    <h4>风险处理流程
+    </h4>
+    <img src="../../images/rirk-4.png" alt="">
+    <h4>催收方式
+    </h4>
+    <img src="../../images/rirk-5.png" alt="">
+</div>

@@ -1,0 +1,136 @@
+@baseColor:#5b337b;
+.bigBanner{
+    background: url('../../images/bg-img.jpg') no-repeat center top;
+}
+/* 帮助中心头部 */
+.helfTitle{
+   margin: 40px 0 10px;
+   .titleLeft{
+        padding: 0;
+       img{
+           height:50px;
+       }
+   }
+   .titleRight{
+        padding: 0;
+       form{
+           width:570px;
+           height:50px;
+           
+           margin-left:5px;
+           background-color: rgb(255, 255, 255);
+           .search{
+              height:50px;
+              width: 450px; 
+              text-indent: 20px;
+              border: 0;
+              outline:0;
+           }
+           .searchBut{
+               height:50px;
+               width: 116px;
+               border: 0;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               .sicon{
+                   display: block;
+                   height:25px;
+                   width: 25px;
+                    background:url("../../images/icons.png") no-repeat -40px 2px;
+               }
+           }
+       }
+   }
+}
+/* 帮助中心内容 */
+// 左边内容
+.leftContent{
+    .list-group{
+       li{
+           width:157px;
+           height: 40px;
+           border-bottom: 1px solid #ccc;
+           background-color: #fff;
+           &:hover{
+            background-color: #eee;
+           }
+           a{
+               display: block;
+               color: #000;
+               width: 100%;
+               line-height: 40px;
+               text-align: center;
+               &:hover{
+                   color:rgb(122, 34, 145) !important;
+               }
+           }
+       }
+    }
+}
+// 右边内容
+.helpH4{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.my-serves,.contact-serves{
+    width:100%;
+    height: 480px;
+    background-color: #fff;
+    .my-servesItem{
+       li{
+           text-align: center;
+           margin-top:40px;
+           height:128px;
+           .helpIcons{
+               margin:0 auto;
+               width:94px;
+               height: 94px;
+               background: url("../../images/icons (1).png") no-repeat;
+           }
+           .icons01{
+               background-position:0 0;
+           }
+           .icons02{
+                background-position:-92px 0;
+            }
+            .icons03{
+                background-position:-186px 0;
+            }
+            .icons04{
+                background-position:0 -92px;
+            }
+            .icons05{
+                background-position:-92px -92px;
+            }
+            .icons06{
+                background-position:-186px -92px;
+            }
+            .icons07{
+                background-position:0 -186px;
+            }
+            .icons08{
+                background-position:-92px -186px;
+            }
+            .icons09{
+                background-position:-186px -186px;
+            }
+
+       }
+    }
+}
+.contact-serves{
+    width:100%;
+    height: 300px;
+    margin: 20px 0 40px;
+    background-color: #fff;
+    .workTime{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        color:rgb(133, 131, 131);
+        margin-top:-32px;
+    }
+}

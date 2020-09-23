@@ -1,0 +1,29 @@
+//logo切换
+$(function(){
+    //用一个变量来存新地址
+    var locals=['../images/hy (1).png','../images/keq (1).png','../images/sh (1).png',
+    '../images/sn (1).png','../images/xlhb (1).png','../images/mymy (1).png','../images/mhjs (1).png','../images/gjkg (1).png']
+   //用一个变量来存旧地址
+   var oldLocals=['../images/hy.png','../images/keq.png','../images/sh.png',
+   '../images/sn.png','../images/xlhb.png','../images/mymy.png','../images/mhjs.png','../images/gjkg.png']
+    var logoes=$('.logoimg').find('img');
+    logoes.hover(function(){
+       //获取当前的图片索引
+       var index=$(this).index();
+       $(this).prop(
+           'src',locals[index]
+       )
+    },function(){
+        var index=$(this).index();
+        $(this).prop(
+            'src',oldLocals[index]
+        )
+    });
+    $('#detailBtn').on('click',function () {
+        /* // 把选中的这一条数据存入本地
+        var borrowid = $(this).data('borrowid') // 获取这一行数据的id（借款订单的id）
+        sessionStorage.setItem('borrowid', borrowid) // 存入本地 */
+        location.href = '#/borrow/borrowinfo'; // 跳转到借款详情
+    })
+    
+})

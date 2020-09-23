@@ -1,0 +1,35 @@
+$(function () {
+    // 发送ajax
+    $.ajax({
+        url: 'http://172.16.14.202:82/getuserinfo.php',
+        type: 'get',
+        dataType: 'json',
+        data: {
+            id: localStorage.getItem('id')
+        },
+        success: function (data) {
+
+            console.log(data)
+            // $('#nickname').html(data.nickname)
+            // $('#username').html(data.username)
+            // $('#lastlogintime').html(data.lastlogintime)
+            // $('#totalmoney').html(data.totalmoney)
+            // $('#usablemoney').html(data.usablemoney)
+            // $('#blockedmoney').html(data.blockedmoney)
+            // 优化
+            for (var key in data) {
+                $(`#${key}`).html(data[key])
+            }
+
+
+
+            // 获取本地用户名
+            var myid = localStorage.getItem('username')
+            // 用户名动态更改
+            $('#myid').html(myid)
+        }
+    })
+
+
+
+})

@@ -1,0 +1,30 @@
+$(function () {
+    $('#btn').on('click', function () {
+        var nickname = $('#nickname').val();
+        var email = $('#email').val();
+        var phone = $('#phone').val();
+        // 获取本地ID
+        var id = localStorage.getItem('id');
+
+        // 发送ajax
+        $.ajax({
+            url: 'http://172.16.14.202:82/updateuser.php',
+            type: 'get',
+            data: {
+                id,
+                nickname,
+                email,
+                phone,
+            },
+            success: function (data) {
+                console.log(data)
+                if (data === 'ok') {
+                    alert('修改成功');
+                    location.href = '#/myaccount'
+
+                }
+            }
+
+        })
+    })
+})

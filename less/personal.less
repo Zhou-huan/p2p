@@ -1,0 +1,65 @@
+/* banner图部分设置*/
+.personal-banner{
+    height: 300px;
+    background: url('../../images/personalBanner.png') no-repeat center top;
+}
+.list-group{
+    cursor: pointer;
+    width:100px;
+    box-shadow: 2px 2px 5px 2px rgb(115, 66, 138);
+    li{
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        a{
+            color: #000;
+            font-size: 12px;
+        }
+    }
+}
+/* 右侧动态加载区 */
+.personalT{
+    width: 100%;
+    text-align: center;
+    padding-top:20px;
+    font-weight: 600;
+}
+.personalR1{
+    margin: 20px 0;
+    width: 100%;
+    li{
+    text-align: center;
+    img{
+        width: 90%;
+        position: relative;
+        z-index: 2;
+        transition: all 1s 0s linear;
+        &:hover{
+            transform:scale(1.5);
+            box-shadow:0 0 5px 2px rgb(100, 53, 161);
+        }
+    }
+    p{
+        cursor: pointer;
+        width: 100%;
+        line-height: 40px;
+        height: 40px;
+        color: #fff;
+        background-color:rgb(115, 45, 143);
+    }
+    }
+}
+.more,.nomore{
+    display: block;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(36, 80, 163);
+    margin:0 auto;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}

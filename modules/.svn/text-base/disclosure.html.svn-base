@@ -1,0 +1,231 @@
+<!-- 引入自身css -->
+<link rel="stylesheet" href="./dist/css/disclosure.min.css">
+
+<!-- 引入js -->
+
+<script src="./lib/jquery/jquery.js"></script>
+
+<!-- 引入自身js -->
+<script src="./js/disclosure.js"></script>
+
+<!-- 大盒子 -->
+<div class="box__main container ">
+  <!-- 左盒子 -->
+  <div class="main__left">
+    <dl class="main__dl">
+      <dt>信息披露</dt>
+      <a href="#/disclosure">
+        <dd class="active">
+          组织信息
+        </dd>
+      </a>
+      <a href="#/disclosure/filing">
+        <dd>
+          备案信息
+        </dd>
+      </a>
+      <a href="#/disclosure/risk">
+        <dd>
+          风控管理
+        </dd>
+      </a>
+      <a href="#/disclosure/audit">
+        <dd>
+          审核信息
+        </dd>
+      </a>
+      <a href="#/datas">
+        <dd>
+          经营信息
+        </dd>
+      </a>
+      <a href="#/disclosure/great">
+        <dd>
+          重大事项
+        </dd>
+      </a>
+      <a href="#/disclosure/charge">
+        <dd>
+          收费标准
+        </dd>
+      </a>
+      <a href="#/disclosure/law">
+        <dd>
+          法律法规
+        </dd>
+      </a>
+      <a href="#/disclosure/hint">
+        <dd>
+          风险揭示
+        </dd>
+      </a>
+      <dt>
+        关于我们
+      </dt>
+      <a href="#/disclosure/core">
+        <dd>
+          核心企业
+        </dd>
+      </a>
+      <a href="#/disclosure/cooperation">
+        <dd>
+          合作伙伴
+        </dd>
+      </a>
+      <a href="#/disclosure/course">
+        <dd>
+          发展历程
+        </dd>
+      </a>
+      <a href="#/disclosure/media">
+        <dd>
+          媒体报道
+        </dd>
+      </a>
+      <a href="#/disclosure/enroll">
+        <dd>
+          招纳贤才
+        </dd>
+      </a>
+      <a href="#/disclosure/contact">
+        <dd class="bderb">
+          联系我们
+        </dd>
+      </a>
+    </dl>
+    <img src="../images/risk-link.png" alt="" style="margin-bottom:50px;">
+  </div>
+  <!-- 右盒子 -->
+  <div class="main__right " style="">
+    <nav class="right__ul">
+
+      <li class="activa">
+        <a href=""> 公司介绍</a>
+      </li>
+      <li>
+        <a href=""> 股东信息 </a>
+      </li>
+      <li>
+        <a href="">董事监事</a>
+      </li>
+      <li>
+        <a href="">组织架构</a>
+      </li>
+      <li>
+        <a href="">管理团队</a>
+      </li>
+      <li>
+        <a href="">官方渠道</a>
+      </li>
+    </nav>
+    <div class="root">
+
+
+      <div class="right__text">
+        <h4>北京道口贷科技有限公司</h4>
+        <p>北京道口贷科技有限公司是一家互联网金融科技公司，由
+          <span class="c924"> 清华控股</span>旗下公司发起，依托
+          <span class="c924"> 清华大学五道口金融学院</span>互联网金融实验室研究成果创办， 于2014年11月在北京注册成立，目前注册资本为人民币11835万元。</p>
+        <p>道口贷战略定位于创新金融科技、服务中小企业， 以成为中小企业金融科技服务标杆为愿景，以践行产学研成果、助力实体经济为使命。</p>
+        <p>从创办至今，道口贷依托五道口金融学院产学研成果， 通过创新金融科技，建立并发展出“社交网络+供应链金融”的业务模式。 在资产端服务方面，道口贷通过“金骏眉风险定价系统”和“道口云融资服务系统”， 实现供应链企业间的信用传导和基于互联网的信用约束，
+          帮助中小企业通过互联网获得不依赖抵押担保的直接融资。 在资金端服务方面，道口贷通过“道口贷网络借贷服务平台”， 实现对融资企业的信息披露和对出借人的限额分散机制， 帮助出借人根据自身风险承受能力选择出借和分散风险。</p>
+        <p>2018年10月，道口贷与中国中小企业协会达成战略合作， 进一步推进针对中小企业的信用评价体系建设， 发展基于应收账款融资的创新模式和渠道， 缓解中小企业融资难融资贵的困境。</p>
+        <div class="text__firm ">
+          <h4>公司信息介绍</h4>
+          <p>
+            <span>公司名称</span> 全称：北京道口贷科技有限公司；简称：道口贷
+          </p>
+          <p>
+            <span>统一社会信用代码</span> 911101083182033348
+          </p>
+          <p>
+            <span>注册资本</span> 注册资本：118354666.6元；实缴资本：118354666.6元
+          </p>
+          <p>
+            <span>注册地址</span> 北京市海淀区中关村东路1号院8号楼8层A801
+          </p>
+          <p>
+            <span>经营地址</span> 北京市海淀区花园东路10号高德大厦6层606-611室
+          </p>
+          <p>
+            <span>公司成立时间</span> 2014年11月28日
+          </p>
+          <p>
+            <span>经营期限</span> 2014年11月28日至2034年11月27日
+          </p>
+          <p>
+            <span>经营状态</span> 北京市海淀区花园东路10号高德大厦6层606-611室
+          </p>
+          <p>
+            <span>经营地址</span> 开业
+          </p>
+          <p>
+            <span>法定代表人</span> 罗川
+          </p>
+          <div class="firm__box">
+            <div class="firm__left ">经营范围</div>
+            <div class="firm__right">技术开发、技术咨询、技术服务、技术转让、技术推广；计算机系统服务；基础软件服务；应用软件服务；工程和技术研究与实验发展；经济贸易咨询；投资咨询； 投资管理；设计、制作、代理、发布广告；产品设计；模型设计；工艺美术设计；电脑动画设计；企业形象策划。</div>
+          </div>
+          <div class="firm__box2">
+            <div class="firm__left bdert ">从业机构及其各分支机构经营场所</div>
+            <div class="firm__right">无</div>
+          </div>
+        </div>
+      </div>
+      <!-- 公司情况 -->
+      <div class="right__btm">
+        <h4>公司对外投资机构情况</h4>
+        <ul>
+          <li class="btm__li">
+            <div class="btm__left">机构名称</div>
+            <div class="btm__right">目前持股比例</div>
+          </li>
+          <li class="btm__li bdert ">
+            <div class="btm__left bdert">深圳前海道口商业保理有限公司</div>
+            <div class="btm__right">100%</div>
+          </li>
+        </ul>
+      </div>
+      <!-- 资质证明 -->
+      <div class="right__license">
+        <h4>资质证明</h4>
+        <div id="bookrack">
+
+          <a href="#">
+            <img src="../../images/license1.png" alt="jquery" />
+          </a>
+
+          <a href="#">
+            <img src="../../images/license2.jpg" alt="jquery" />
+          </a>
+
+          <a href="#">
+            <img src="../../images/license3.jpg" alt="jquery" />
+          </a>
+
+          <a href="#">
+            <img src="../../images/license4.jpg" alt="jquery" />
+          </a>
+
+          <a href="#">
+            <img src="../../images/license5.jpg" alt="jquery" />
+          </a>
+
+          <a href="#">
+            <img src="../../images/license6.jpg" alt="jquery" />
+          </a>
+          <a href="#">
+            <img src="../../images/license11.jpg" alt="jquery" />
+          </a>
+          <a href="#">
+            <img src="../../images/license11.jpg" alt="jquery" />
+          </a>
+        </div>
+        <div class="signature">
+          法定代表人签字:
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

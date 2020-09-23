@@ -1,0 +1,45 @@
+<!-- 引入自身css -->
+<link rel="stylesheet" href="../../dist/css/great.min.css">
+
+<!-- 内容 -->
+<div class="great__box">
+    <h4>重大事项详情</h4>
+    <table class="table">
+        <tr class="table__tr">
+            <td class="tr__left">公司减资、合并、分立、解散或申请破产</td>
+            <td class="tr__right"> 无</td>
+        </tr>
+        <tr class="table__tr">
+            <td class="tr__left">公司依法进入破产程序</td>
+            <td class="tr__right"> 无</td>
+        </tr>
+        <tr class="table__tr">
+            <td class="tr__left">公司被责令停业、整顿、关闭</td>
+            <td class="tr__right"> 无</td>
+        </tr>
+        <tr class="table__tr">
+            <td class="tr__left">公司涉及重大诉讼、仲裁，或涉嫌违法违规被有权机关调查，或受到刑事处罚、重大行政处罚</td>
+            <td class="tr__right"> 无</td>
+        </tr>
+        <tr class="table__tr">
+            <td class="tr__left">公司法定代表人、实际控制人、控股股东、主要负责人、董事、监事、高级管理人员的变更信息</td>
+            <td class="tr__right"> 无</td>
+        </tr>
+        <tr class="table__tr">
+            <td class="tr__left">公司主要或者全部业务陷入停顿</td>
+            <td class="tr__right"> 无</td>
+        </tr>
+        <tr class="table__tr">
+            <td class="tr__left">存在欺诈、损害出借人利益等其他影响网络借贷信息中介机构经营活动的重大事项</td>
+            <td class="tr__right"> 无</td>
+        </tr>
+        <tr class="table__tr h60 pd5">
+            <td class="tr__left">公司法定代表人、实际控制人、主要负责人、董事、监事、高级管理人员涉及重大诉讼、仲裁， 或涉嫌违法违纪被有权机关调
+                <span></span> 查，或受到刑事处罚、重大行政处罚，或被采取强制措施</td>
+            <td class="tr__right lh60"> 无</td>
+        </tr>
+
+
+    </table>
+    <div class="text ">法定代表人签字:</div>
+</div>

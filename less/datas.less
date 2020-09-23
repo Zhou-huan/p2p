@@ -1,0 +1,161 @@
+@baseColor:#5b337b;
+//table表格部分
+.titleP{
+   padding: 40px 0;
+}
+.dataTable{
+    height: 300px;
+   td{
+      padding-top: 20px;
+      text-align: center;
+      vertical-align: middle !important;
+      h4{
+         font-size: 24px;
+      }
+   }
+}
+//柱状图
+.histogram{
+   margin-top:20px;
+  .butts{
+     text-align: center;
+     padding-top:20px;
+      span{
+         display: inline-block;
+         line-height:40px;
+         width:100px;
+         height: 40px;
+         color: #fff;
+         background-color: rgb(223, 71, 71);
+         border: 1px solid rgb(199, 57, 57);
+         box-sizing: border-box;
+         cursor: pointer;
+      }
+      .specSpan{
+         margin-left: -4px;
+         background-color: #fff;
+         color: #000;
+         &:hover{
+            color: #fff;
+            background-color: rgba(228, 84, 84, 0.712);
+            opacity:0.5;
+         }
+      }
+  }
+  .months{
+     width: 100px;
+     height:30px;
+     margin: 0 auto;
+     border: 1px solid rgb(231, 64, 64);
+    margin-left:30%;
+    text-indent:18px;
+  }
+}
+//第二个表格
+.dataTable02{
+   height: 600px;
+  td{
+     padding-top: 20px;
+     text-align: center;
+     vertical-align: middle !important;
+     h4{
+      font-size: 24px;
+   }
+  }
+  .hide{
+     visibility: hidden;
+  }
+}
+//第三个表格
+.dataTable03{
+   height: 300px;
+  td{
+     text-align: center;
+     height:20px;
+     padding: 0 !important;
+     vertical-align: middle !important;
+     h4{
+        font-size: 24px;
+        line-height:24px;
+     }
+  }
+}
+.dataTable04{
+   height: 100px;
+   text-align: center;
+}
+//饼状图
+.pieCharts{
+   .pieTitle{
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+   }
+}
+//男女比例图
+.scaleCharts{
+   .datasmain05{
+      .sexdatas{
+         padding-top:20px;
+         width:300px;
+         padding-left:5%;
+      }
+   }
+   
+}
+//地理图
+.map{
+   .mapRight{
+      width:60%;
+      text-align: center;
+      height:500px;
+   }
+}
+// 楼层和回到顶部
+#loutinav {
+	width: 80px;
+	position: fixed;
+	top: 100px;
+	left: 50px;
+	border: 1px solid #ddd;
+   display: none;
+   ul{
+      li {
+      width: 80px;
+      height: 40px;
+      border-bottom: 1px dotted #DDDDDD;
+      list-style: none;
+      font-size: 12px;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+      padding: 10px 0;
+      background:#8f62b4;
+      color: #fff;
+      span {
+         width: 80px;
+         height: 40px;
+         line-height:34px;
+         position: absolute;
+         top: 0;
+         left: 0;
+         &:hover{
+            background:rgb(93, 206, 214);
+            color: #fff;
+            display: block;
+            }
+         }
+      }
+      li.last {
+         background: #5588aa;
+         color: #fff;
+         border-bottom: 1px solid #ddd;
+      }
+      li.active span {
+         background:rgb(93, 206, 214);
+         color: #fff;
+         display: block;
+      }
+   }
+}
+

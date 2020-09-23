@@ -1,0 +1,368 @@
+<!-- 引入自身css -->
+<link rel="stylesheet" href="./dist/css/borrowing.min.css">
+
+<div class="list__main">
+  <nav class="navbar navbar-default ">
+    <div class="container ">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span class="main__head navbar-brand ">
+          <a href="#">项目</a>/项目列表
+        </span>
+      </div>
+    </div>
+  </nav>
+  <!-- 项目名称 和内容 -->
+  <div class="main__content row container  ">
+    <!--内容  -->
+    <div class="col-md-3 h50 ft14 c888">项目名称</div>
+    <div class="col-md-1 h60  w50 ft16 c888">核心企业</div>
+    <div class="col-md-1 h60 w50 ft16 c888">
+      约定年化利率</div>
+    <div class="col-md-1 h60 w50 ft16 c888">
+      项目期限
+    </div>
+    <div class="col-md-1 h60 w50 ft16 c888">
+      项目评级
+    </div>
+    <div class="col-md-3 h60 content__bar ft16 c888">
+      项目状态
+    </div>
+  </div>
+  <div class="main__content row container mrtop5">
+    <!-- 左上角图标 -->
+    <div class="left__txt ft12 wlty">万里挑一</div>
+    <div class="right__txt ft12 wlty"> 功德圆满</div>
+    <!--内容  -->
+    <div class="col-md-3 pd15 ft14 ">(19112012)工程施工应收账款融资</div>
+    <div class="col-md-1 pd15  w50 ft16  c5b">圣桦集团</div>
+    <div class="col-md-1 pd15 w50 ft16 cf86">
+      <span class="ft20 ">9</span>%</div>
+    <div class="col-md-1 pd15 w50 ft20 c000 ">6
+      <span class="ft14">个月</span>
+    </div>
+    <div class="col-md-1 pd15 w50">
+      <div class="starbox">
+        <div class="star" style="width:75%"></div>
+      </div>
+    </div>
+
+    <div class="col-md-3 pd15 content__bar">
+      <p class="c000">剩余额度63700元</p>
+
+      <div class="progress w50 mrl">
+        <div class="progress-bar " role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+          <a href="#" class="center">立刻出借</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- 第二个 -->
+  <div class="main__content row container mrtop5">
+    <!-- 左上角图标 -->
+    <div class="left__txt ft12 wlty">万里挑一</div>
+    <div class="right__txt ft12 wlty"> 功德圆满</div>
+    <!--内容  -->
+    <div class="col-md-3 pd15 ft14 c000">((19112022)货物购销订单融资项目</div>
+    <div class="col-md-1 pd15  w50 ft16 cae4">北京汇源</div>
+    <div class="col-md-1 pd15 w50 ft16 cf86">
+      <span class="ft20 ">11</span>%</div>
+    <div class="col-md-1 pd15 w50 ft20 c000 ">12
+      <span class="ft14">个月</span>
+    </div>
+    <div class="col-md-1 pd15 w50">
+      <div class="starbox">
+        <div class="star" style="width:75%"></div>
+      </div>
+    </div>
+
+    <div class="col-md-3 pd15 content__bar">
+      <p class="c000">剩余额度656800元</p>
+      <div class="progress w50 mrl">
+        <a href="#" class="ft12 center ">立刻出借</a>
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 第三个 -->
+  <div class="main__content row container mrtop5">
+    <!-- 左上角图标 -->
+    <div class="left__txt ft12 wlty">功德圆满</div>
+    <!--内容  -->
+    <div class="col-md-3 pd15 ft14 c000">((19112022)货物购销订单融资项目</div>
+    <div class="col-md-1 pd15  w50 ft16 cae4">北京汇源</div>
+    <div class="col-md-1 pd15 w50 ft16 cf86">
+      <span class="ft20 ">11</span>%</div>
+    <div class="col-md-1 pd15 w50 ft20 c000 ">12
+      <span class="ft14">个月</span>
+    </div>
+    <div class="col-md-1 pd15 w50">
+      <div class="starbox">
+        <div class="star" style="width:75%"></div>
+      </div>
+    </div>
+
+    <div class="col-md-3 pd15 content__bar">
+      <p class="c000">剩余额度656800元</p>
+      <div class="progress w50 mrl">
+        <a href="#" class="ft12 center ">立刻出借</a>
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 第四个 -->
+  <div class="main__content row container mrtop5">
+    <!-- 左上角图标 -->
+    <div class="left__txt ft12 wlty">功德圆满</div>
+    <!--内容  -->
+    <div class="col-md-3 pd15 ft14 c000">((19112022)货物购销订单融资项目</div>
+    <div class="col-md-1 pd15  w50 ft16 cae4">北京汇源</div>
+    <div class="col-md-1 pd15 w50 ft16 cf86">
+      <span class="ft20 ">11</span>%</div>
+    <div class="col-md-1 pd15 w50 ft20 c000 ">12
+      <span class="ft14">个月</span>
+    </div>
+    <div class="col-md-1 pd15 w50">
+      <div class="starbox">
+        <div class="star" style="width:75%"></div>
+      </div>
+    </div>
+
+    <div class="col-md-3 pd15 content__bar">
+      <p class="c000">剩余额度656800元</p>
+      <div class="progress w50 mrl">
+        <a href="#" class="ft12 center ">立刻出借</a>
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 第五个 -->
+  <div class="main__content row container mrtop5">
+    <!--内容  -->
+    <div class="col-md-3 pd15 ft14 c000">((19112022)货物购销订单融资项目</div>
+    <div class="col-md-1 pd15  w50 ft16 cae4">北京汇源</div>
+    <div class="col-md-1 pd15 w50 ft16 cf86">
+      <span class="ft20 ">11</span>%</div>
+    <div class="col-md-1 pd15 w50 ft20 c000 ">12
+      <span class="ft14">个月</span>
+    </div>
+    <div class="col-md-1 pd15 w50">
+      <div class="starbox">
+        <div class="star" style="width:75%"></div>
+      </div>
+    </div>
+
+    <div class="col-md-3 pd15 content__bar">
+      <p class="c000">剩余额度656800元</p>
+      <div class="progress w50 mrl">
+        <a href="#" class="ft12 center ">立刻出借</a>
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 第六个 -->
+  <div class="main__content row container mrtop5">
+    <!--内容  -->
+    <div class="col-md-3 pd15 ft14 c000">((19112022)货物购销订单融资项目</div>
+    <div class="col-md-1 pd15  w50 ft16 cae4">北京汇源</div>
+    <div class="col-md-1 pd15 w50 ft16 cf86">
+      <span class="ft20 ">11</span>%</div>
+    <div class="col-md-1 pd15 w50 ft20 c000 ">12
+      <span class="ft14">个月</span>
+    </div>
+    <div class="col-md-1 pd15 w50">
+      <div class="starbox">
+        <div class="star" style="width:75%"></div>
+      </div>
+    </div>
+
+    <div class="col-md-3 pd15 content__bar">
+      <p class="c000">剩余额度656800元</p>
+      <div class="progress w50 mrl">
+        <a href="#" class="ft12 center ">立刻出借</a>
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 第七个 -->
+  <div class="main__content row container mrtop5">
+    <!--内容  -->
+    <div class="col-md-3 pd15 ft14 c000">((19112022)货物购销订单融资项目</div>
+    <div class="col-md-1 pd15  w50 ft16 cae4">北京汇源</div>
+    <div class="col-md-1 pd15 w50 ft16 cf86">
+      <span class="ft20 ">11</span>%</div>
+    <div class="col-md-1 pd15 w50 ft20 c000 ">12
+      <span class="ft14">个月</span>
+    </div>
+    <div class="col-md-1 pd15 w50">
+      <div class="starbox">
+        <div class="star" style="width:75%"></div>
+      </div>
+    </div>
+
+    <div class="col-md-3 pd15 content__bar">
+      <p class="c000">剩余额度656800元</p>
+      <div class="progress w50 mrl">
+        <a href="#" class="ft12 center ">立刻出借</a>
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 第八个 -->
+  <div class="main__content row container mrtop5">
+    <!--内容  -->
+    <div class="col-md-3 pd15 ft14 c000">((19112022)货物购销订单融资项目</div>
+    <div class="col-md-1 pd15  w50 ft16 cae4">北京汇源</div>
+    <div class="col-md-1 pd15 w50 ft16 cf86">
+      <span class="ft20 ">11</span>%</div>
+    <div class="col-md-1 pd15 w50 ft20 c000 ">12
+      <span class="ft14">个月</span>
+    </div>
+    <div class="col-md-1 pd15 w50">
+      <div class="starbox">
+        <div class="star" style="width:75%"></div>
+      </div>
+    </div>
+
+    <div class="col-md-3 pd15 content__bar">
+      <p class="c000">剩余额度656800元</p>
+      <div class="progress w50 mrl">
+        <a href="#" class="ft12 center ">立刻出借</a>
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 第九个 -->
+  <div class="main__content row container mrtop5">
+    <!--内容  -->
+    <div class="col-md-3 pd15 ft14 c000">((19112022)货物购销订单融资项目</div>
+    <div class="col-md-1 pd15  w50 ft16 cae4">北京汇源</div>
+    <div class="col-md-1 pd15 w50 ft16 cf86">
+      <span class="ft20 ">11</span>%</div>
+    <div class="col-md-1 pd15 w50 ft20 c000 ">12
+      <span class="ft14">个月</span>
+    </div>
+    <div class="col-md-1 pd15 w50">
+      <div class="starbox">
+        <div class="star" style="width:75%"></div>
+      </div>
+    </div>
+
+    <div class="col-md-3 pd15 content__bar">
+      <p class="c000">剩余额度656800元</p>
+      <div class="progress w50 mrl">
+        <a href="#" class="ft12 center ">立刻出借</a>
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 第十个 -->
+  <div class="main__content row container mrtop5">
+    <!--内容  -->
+    <div class="col-md-3 pd15 ft14 c000">((19112022)货物购销订单融资项目</div>
+    <div class="col-md-1 pd15  w50 ft16 cae4">北京汇源</div>
+    <div class="col-md-1 pd15 w50 ft16 cf86">
+      <span class="ft20 ">11</span>%</div>
+    <div class="col-md-1 pd15 w50 ft20 c000 ">12
+      <span class="ft14">个月</span>
+    </div>
+    <div class="col-md-1 pd15 w50">
+      <div class="starbox">
+        <div class="star" style="width:75%"></div>
+      </div>
+    </div>
+
+    <div class="col-md-3 pd15 content__bar">
+      <p class="c000">剩余额度656800元</p>
+      <div class="progress w50 mrl">
+        <a href="#" class="ft12 center ">立刻出借</a>
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- 分页 -->
+<nav aria-label="..." class="paging container">
+  <ul class="pagination">
+    <li class="">
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="active">
+      <a href="#">1
+      </a>
+    </li>
+    <li class="">
+      <a href="#">2
+      </a>
+    </li>
+    <li class="">
+      <a href="#">3
+      </a>
+    </li>
+    <li class="">
+      <a href="#">4
+      </a>
+    </li>
+    <li class="">
+      <a href="#">5
+      </a>
+    </li>
+    <li class="">
+      <a href="#">...
+      </a>
+    </li>
+    <li class="">
+      <a href="#">2562
+      </a>
+    </li>
+    <li class="">
+      <a href="#">2563
+      </a>
+    </li>
+    <li class="">
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+
+  </ul>
+</nav>

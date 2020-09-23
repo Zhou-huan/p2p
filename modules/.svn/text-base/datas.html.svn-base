@@ -1,0 +1,376 @@
+<link rel="stylesheet" href="../dist/css/datas.min.css">
+<script src="../js/datas.js"></script>
+<!-- table表格部分 -->
+<div class="container louti">
+    <p class="titleP"><strong>交易数据</strong>（数据更新至2019年11月20日）</p>
+    <table class="table table-bordered dataTable">
+      <tr>
+          <td>
+              <h4>128.37</h4>
+              <p>累计交易总额（亿元）</p>
+          </td >
+           <td class="active">
+              <h4>128.37</h4>
+              <p>累计交易总额（亿元）</p>
+          </td>
+           <td>
+              <h4>128.37</h4>
+              <p>累计交易总额（亿元）</p>
+          </td>
+           <td class="active">
+              <h4>128.37</h4>
+              <p>累计交易总额（亿元）</p>
+          </td>
+         
+      </tr>
+      <tr>
+          <td class="active">
+              <h4>128.37</h4>
+              <p>累计交易总额（亿元）</p>
+          </td>
+           <td>
+              <h4>128.37</h4>
+              <p>累计交易总额（亿元）</p>
+          </td>
+           <td class="active">
+              <h4>128.37</h4>
+              <p>累计交易总额（亿元）</p>
+          </td>
+           <td>
+              <h4>128.37</h4>
+              <p>累计交易总额（亿元）</p>
+          </td> 
+         
+      </tr>
+</table>
+<!-- 累计交易总和柱状图 -->
+<div class="histogram container louti">
+    <div class="row">
+         <!-- 左边柱状图 -->
+        <div class="hisLeft col-md-6">
+            <p class="pull-left"><strong>累计交易总额</strong>（128.37亿元）</p><br>
+            <div class="butts">
+              <span>按月</span>
+              <span class="specSpan">近十天</span>
+            </div>
+              <!-- 为 ECharts 准备两个具备大小（宽高）的 DOM -->
+             <div id="datasmain01" style="width: 500px;height:400px;" class="pull-left"></div>
+             <select name="month"  class="months">
+                 <option value="">2019</option>
+                 <option value="">2018</option>
+                 <option value="">2017</option>
+                 <option value="">2016</option>
+             </select>
+        </div>
+        <!-- 右边柱状图 -->
+        <div class="hisLeft col-md-6">
+                <p class="pull-left"><strong>累计交易笔数</strong>（26665笔）</p> <br>
+                <div class="butts">
+                    <span>按月</span>
+                    <span class="specSpan">近十天</span>
+                </div>
+                  <!-- 为 ECharts 准备两个具备大小（宽高）的 DOM -->
+                  <div id="datasmain02" style="width: 500px;height:400px;" class="pull-right"></div>
+                  <select name="month"  class="months">
+                        <option value="">2019</option>
+                        <option value="">2018</option>
+                        <option value="">2017</option>
+                        <option value="">2016</option>
+                    </select>
+            </div>
+    </div>
+</div>
+<!-- 第二个表格 -->
+<div class="container louti">
+        <p class="titleP"><strong>逾期数据</strong>（数据更新至2019年11月20日）</p>
+        <table class="table table-bordered dataTable02">
+          <tr>
+              <td>
+                  <h4>10,952,218.18</h4>
+                  <p>逾期金额（元）</p>
+              </td >
+               <td class="active">
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td>
+               <td>
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td>
+               <td class="active">
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td>
+             
+          </tr>
+          <tr>
+              <td class="active">
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td>
+               <td>
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td>
+               <td class="active">
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td>
+               <td>
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td> 
+             
+          </tr>
+            <tr>
+              <td>
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td>
+               <td class="active">
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td>
+               <td>
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td>
+               <td class="active">
+                  <h4>128.37</h4>
+                  <p>累计交易总额（亿元）</p>
+              </td> 
+             
+          </tr>
+          <tr>
+                <td class="active">
+                    <h4>128.37</h4>
+                    <p>累计交易总额（亿元）</p>
+                </td>
+                 <td>
+                    <h4>128.37</h4>
+                    <p>累计交易总额（亿元）</p>
+                </td>
+                 <td class="hide">
+                    <h4>128.37</h4>
+                    <p>累计交易总额（亿元）</p>
+                </td>
+                 <td class="hide">
+                    <h4>128.37</h4>
+                    <p>累计交易总额（亿元）</p>
+                </td> 
+               
+            </tr>
+    </table>
+</div>
+<!-- 第三个表格 -->
+<div class="container louti">
+        <p class="titleP"><strong>融资用户及项目信息</strong>（数据更新至2019年11月20日）</p>
+        <table class="table table-bordered dataTable03">
+           <!-- On rows -->
+           <tr>
+               <td>
+                    <h4>128.37</h4>
+                    <p>累计交易总额（亿元）</p>
+               </td>
+               <td>
+                    <h4>128.37</h4>
+                    <p>累计交易总额（亿元）</p>
+               </td>
+           </tr>
+            <tr class="active"> 
+                <td>笔均融资（借款）金额（元）</td>
+                <td>480642</td>
+            </tr>
+             <tr>
+               <td>最大单一融资(借款）人待还金额占比(%)</td>
+               <td>	0.09</td>
+           </tr>
+            <tr class="active"> 
+                <td>前十大融资（借款）人待还金额占比(%)</td>
+                <td>0.87</td>
+            </tr>
+        </table>
+</div>
+<!-- 第四个表格 -->
+<div class="container louti">
+        <p class="titleP"><strong>供应链金融数据</strong>（数据更新至2019年11月20日）</p>
+        <table class="table table-bordered dataTable04">
+           <!-- On rows -->
+           <tr>
+               <td>
+                    <h4>107家</h4>
+                    <p>供应链核心企业</p>
+               </td>
+               <td>
+                    <h4>810家</h4>
+                    <p>供应链还款企业</p>
+               </td>
+               <td>
+                    <h4>8825个</h4>
+                    <p>供应链融资用户</p>
+               </td>
+           </tr>
+        </table>
+</div>
+<!-- 饼状图 -->
+<div class="container pieCharts louti">
+    <p class="titleP"><strong>累计撮合成功26665笔融资项目</strong></p>
+    <div class="row">
+        <div class="pieItme col-md-6">
+            <p class="pieTitle">融资项目期限分布</p>
+                <div id="datasmain03" style="width: 500px;height:400px;" class="pull-right"></div>
+        </div>
+        <div class="pieItem col-md-6">
+            <p class="pieTitle">融资项目利率分布</p>
+            <div id="datasmain04" style="width: 500px;height:400px;" class="pull-right"></div>
+        </div>
+    </div>
+</div>
+<!-- 第五个表格 -->
+<div class="container louti">
+        <p class="titleP"><strong>出借人信息</strong>（数据更新至2019年11月20日）</p>
+        <table class="table table-bordered dataTable03">
+           <!-- On rows -->
+           <tr>
+               <td>
+                    <h4>182696</h4>
+                    <p>累计注册用户数（人）</p>
+               </td>
+               <td>
+                    <h4>36262</h4>
+                    <p>累计出借人数（人）</p>
+               </td>
+           </tr>
+            <tr class="active"> 
+                <td>笔均出借金额（元）</td>
+                <td>10227</td>
+            </tr>
+             <tr>
+               <td>人均累计出借金额（元）</td>
+               <td>	354280</td>
+           </tr>
+            <tr class="active"> 
+                <td>最大单一出借人出借余额占比(%)</td>
+                <td>0.87</td>
+            </tr>
+            <tr> 
+                <td>前十大出借人出借余额占比(%)</td>
+                <td>3.34</td>
+                </tr>
+        </table>
+</div>
+<!-- 男女比例分布 -->
+<div class="container scaleCharts louti">
+        <div class="row">
+            <div class="scaleItme col-md-6">
+                <p class="scaleTitle">男女比例分布</p>
+                    <div class="datasmain05 pull-left" style="width: 500px;height:400px;" class="pull-right">
+                        <p class="sexdatas"><span>45.3%</span><span class="pull-right">55.67%</span></p>
+                        <img src="../images/sex.jpg" alt="">
+                    </div>
+            </div>
+            <div class="scaleItme col-md-6">
+                <p class="scaleTitle">年龄分布</p>
+                <div id="datasmain06" style="width: 500px;height:400px;" class="pull-right"></div>
+            </div>
+        </div>
+    </div>
+<!-- 用户类型分布 -->
+<div class="container pieCharts louti">
+        <div class="row">
+            <div class="scaleItme col-md-6">
+                <p class="scaleTitle">用户类型分布</p>
+                    <div id="datasmain07" style="width: 500px;height:400px;" class="pull-right"></div>
+            </div>
+            <div class="scaleItme col-md-6">
+                <p class="scaleTitle">出借金额分布</p>
+                <div id="datasmain08" style="width: 500px;height:400px;" class="pull-right"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 地理图 -->
+    <div class="container map louti">
+        <p><strong>出借人地域分布</strong></p>
+        <div class="row">
+            <div class="mapLeft col-md-8" id="china-map" style="height: 500px;">
+               <!--  <img src="../images/map.jpg" alt=""> -->
+               
+            </div>
+             <div class="col-md-4">
+                <table class="table table-bordered mapRight ">
+                    <!-- On rows -->
+                    <tr class="warning">
+                        <th>排名</th>
+                        <th>地区</th>
+                        <th>用户占比</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>北京</td>
+                        <td>15.67%</td>
+                    </tr>
+                    <tr class="active">
+                        <td>2</td>
+                        <td>广东</td>
+                        <td>12.45%</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>江苏</td>
+                        <td>3.45%</td>
+                    </tr>
+                    <tr class="active">
+                        <td>4</td>
+                        <td>山东</td>
+                        <td>34.5%</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>浙江</td>
+                        <td>3.45%</td>
+                    </tr>
+                    <tr class="active">
+                        <td>6</td>
+                        <td>四川</td>
+                        <td>3.444%</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>上海</td>
+                        <td>3.45%</td>
+                    </tr>
+                    <tr class="active">
+                        <td>8</td>
+                        <td>河南</td>
+                        <td>3.45%</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>福建</td>
+                        <td>4.55%</td>
+                    </tr>
+                    <tr class="active">
+                        <td>10</td>
+                        <td>湖北</td>
+                        <td>2.93%</td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <!-- 楼层和回到顶部 -->
+    <div id="loutinav">
+        <ul>
+            <li class="active"><span>交易数据</span> </li>
+            <li><span>累计交易</span> </li>
+            <li><span>逾期数据</span> </li>
+            <li><span>融资用户及项目信息</span> </li>
+            <li><span>供应链金融数据</span> </li>
+            <li><span>累计撮合成功26665笔融资项目</span> </li>
+            <li><span>出借人信息</span> </li>
+            <li><span>男女比例分布</span> </li>
+            <li><span>用户类型分布</span> </li>
+            <li><span>出借人地域分布</span> </li>
+            <li class="last">顶部</li>
+        </ul>
+    </div>

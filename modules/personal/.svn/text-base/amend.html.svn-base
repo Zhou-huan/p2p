@@ -1,0 +1,20 @@
+<div>
+    <form action="">
+        <p>
+            昵称：
+            <input type="text" id="nickname">
+        </p>
+        <p>
+            邮箱：
+            <input type="text" id="email">
+        </p>
+        <p>
+            电话：
+            <input type="text" id="phone">
+        </p>
+        <button type="button" id="btn">提交</button>
+    </form>
+
+</div>
+
+<script src="../../js/amend.js"></script>

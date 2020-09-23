@@ -1,0 +1,80 @@
+<!-- 引入自身css -->
+<link rel="stylesheet" href="../../dist/css/charge.min.css">
+
+<!-- 内容 -->
+<div class="charge__box">
+    <h4>出借人收费标准</h4>
+    <table class="">
+        <tr class="charge__tr">
+            <td class="td__left">业务类型</td>
+            <td class="td__right">收费标准</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">1. 用户注册</td>
+            <td class="td__right">免费</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">2. 开通存管账户</td>
+            <td class="td__right">免费</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">3. 充值</td>
+            <td class="td__right">充值费用，暂全部由道口贷承担，不向出借人收取</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">4. 出借</td>
+            <td class="td__right">出借服务费=每笔出借约定利率*10%，目前免收</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">5. 提现</td>
+            <td class="td__right">提现费用，暂全部由道口贷承担，不向出借人收取</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">6. 回款到账</td>
+            <td class="td__right">免费</td>
+        </tr>
+
+    </table>
+
+    <!-- 第二个table -->
+    <h4>融资人收费标准</h4>
+    <table class="">
+        <tr class="charge__tr">
+            <td class="td__left">业务类型</td>
+            <td class="td__right">收费标准</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">1. 用户注册</td>
+            <td class="td__right">免费</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">2. 开通存管账户</td>
+            <td class="td__right">免费</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">3. 充值</td>
+            <td class="td__right">免费</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">4. 出借</td>
+            <td class="td__right">免费</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">5. 提现</td>
+            <td class="td__right">普通提现：免费；加急提现：提现金额*0.03%＋1.5元，最高收取200元</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">6. 回款到账</td>
+            <td class="td__right">项目期限6个月及以下每笔15元，项目期限6个月以上每笔30元</td>
+        </tr>
+        <tr class="charge__tr">
+            <td class="td__left">7. 融资服务</td>
+            <td class="td__right">向融资人收取服务费</td>
+        </tr>
+
+    </table>
+
+    <div class="text">
+        法定代表人签字:
+    </div>
+</div>

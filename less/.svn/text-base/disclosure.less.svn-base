@@ -1,0 +1,202 @@
+li{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none !important; 
+}
+a{
+    text-decoration: none !important; 
+}
+a:visited{
+    color:#333 ; 
+}
+a{
+    color:#333 ;
+}
+
+.active{
+    color:#924ea9;
+    background:#eee;
+}
+
+// li
+
+.root{
+    margin-top:10px;
+}
+
+.c924{
+    color:#924ea9;
+}
+.ph{
+    height:40px;
+    line-height: 0  !important;
+}
+.bdert{
+    border-top:0 !important;
+}
+.bderb{
+    border-bottom:0 !important;
+}
+.bkber{
+    width:100%;
+    height:200px;
+    border:1px solid #ccc;
+}
+.box__main{
+   margin-top:20px;
+    padding:0;
+    .main__left{
+        width:140px;
+        float: left;
+        
+        dl{
+            border:1px solid #ccc;
+            dt{
+                border-bottom:1px solid #ccc;
+                line-height:30px;
+                text-indent:10px;
+                width:100%;
+            }
+            dd{
+                border-bottom:1px solid #ccc;
+                line-height:30px;
+                text-indent:3.5em;
+                font-size:12px;
+                width:100%;
+            }
+        }
+        
+        img{
+            margin-top:15px;
+            width:140px;
+        }
+    }
+    .main__right{
+        width:980px;
+        float: right;
+        
+       
+       nav{
+        display: flex;
+        
+        // background:#eee;
+        li{
+            text-align:center;
+            flex:1;
+            width:30px;
+            height:40px;
+            line-height:40px;
+            background:#eee;
+            box-sizing: border-box;
+            &:hover{
+                background:#eee !important;
+                color:#924ea9 !important;
+                border-top:2px solid #924ea9;
+                box-sizing: border-box;
+            }
+            &.avtiva{
+                background:#FFF !important;
+                color:#924ea9;
+                border-top:2px solid #924ea9;
+            }
+        }  
+       }
+    }
+    .right__text{
+        h4{
+        margin:15px 0;
+        }
+        p{  
+            line-height:2em;
+            text-indent:1em;
+            
+        }
+        .text__firm{
+            h4{
+                font-size:14px;
+                font-weight:bold;
+            }
+            p{  
+                border-bottom:0 !important;
+                border:1px solid #ccc;
+                span{
+                    display:inline-block;
+                    width:140px;
+                    height:40px;
+                    line-height:40px;
+                    border-right:1px solid #ccc;
+                   
+                }
+            }
+            .firm__box{
+                border:1px solid #ccc;
+                display:flex;
+                .firm__left{
+                    width:317px;
+                    text-indent:2em;
+                    line-height: 70px;
+                    border-right:1px solid #ccc;
+                }
+                .firm__right{
+                    margin:5px 5px;
+                    
+                }
+            }
+            .firm__box2{
+                border:1px solid #ccc;
+                display:flex;
+                border-top:0 !important;
+                .firm__left{
+                    width:154.5px;
+                    padding-left:2em;
+                    height:50px;
+                    padding-top:5px;   
+                    border-right:1px solid #ccc;
+                    
+                }
+                .firm__right{
+                    margin:5px 5px;
+                    line-height: 40px;
+                }
+            }
+        }
+        
+    }
+}
+.right__btm{
+    margin-top:30px;
+      h4{
+          font-weight:bold;
+          font-size:14px;
+      }     
+    .btm__li{
+        border:1px solid #CCC;
+        height:40px;
+        line-height:40px;
+        text-indent:1em;
+        display:flex; 
+        .btm__left{
+            border-right:1px solid #CCC;
+            flex:5;
+        } 
+        .btm__right{
+            flex:1;
+        } 
+    }
+}
+.right__license{
+    
+    height:300px;
+    h4{
+        font-weight:bold;
+        font-size:14px;
+    } 
+}
+.signature{
+   margin-top:50px; 
+}
+
+//图片书架
+#bookrack { width: 1000px; margin: auto; } #bookrack a { text-align: center; text-decoration: none; font-size: 12px; } #bookrack span { display: none; position: absolute; color: #fff; background: #000000; background: rgba(0, 0, 0, 0.5); padding: 0px; top: 30px; left: 0; } #bookrack span big { color: red; font-size: 14px; } #bookrack img { width: 100%; height: 100%; display: block; border: 0; };
+

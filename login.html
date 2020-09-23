@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>p2p首页</title>
+     <!-- reset.css -->
+    <link rel="stylesheet" href="./dist/css/reset.css">
+     <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+     <!-- index.min.css -->
+    <link rel="stylesheet" href="./dist/css/login.min.css">
+</head>
+<body>
+  <div class="headerfix">
+      <div class="header">
+          <!-- 顶部导航 -->
+        <nav class="top-nav navbar navbar-default">
+            <div class="container">
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- 左侧 -->
+                <ul class="nav navbar-nav">
+                  <li><a href="#">客服热线：400-622-7618</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle dropbgc" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关注微信号 <span class="caret"></span></a>
+                    <ul class="dropdown-menu menus">
+                      <img src="./images/quickmark.png" alt="">
+                    </ul>
+                  </li>
+                </ul>
+                <!-- 右侧 -->
+                <ul class="nav navbar-nav navbar-right navfont">
+                  <li><a href="./login.html">登录</a></li>
+                  <li><a href="./register.html">注册</a></li>
+                  <li><a href="#">个人中心</a></li>
+                  <li><a href="./login.html">我的账号</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- 内容导航 -->
+        <nav class="content-nav navbar navbar-default">
+            <div class="container">
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- 左侧 -->
+                <ul class="nav navbar-nav">
+                  <li><a href="#"><img src="./images/logo1.png" alt=""></a></li>
+                </ul>
+                <!-- 右侧 -->
+                <ul class="nav navbar-nav navbar-right cnav">
+                  <li><a href="index.html">首页</a></li>
+                  <li><a href="index.html#/invest">我要投资</a></li>
+                  <li><a href="index.html#/borrow">我要借款</a></li>
+                  <li><a href="index.html#/projectlist">项目列表</a></li>
+                  <li><a href="index.html#/disclosure">信息披露</a></li>
+                  <li><a href="index.html#/datas">平台数据</a></li>
+                  <li><a href="index.html#/helpCenter">帮助中心</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+       </div>
+  </div>
+    <!-- 主体部分 -->
+    <div class="logoinMain container-fluid">
+        <!-- 这里的内容是动态加载进来的 -->
+             <!-- 账户登录 -->
+				<form action="" method="post" id="myform" class="forms">
+                    <!-- 圆形样式设置 -->
+                    <div class="circle">
+                        <img src="./images/user-logo.png" alt="">
+                    </div>
+                        <p class="clearfix"><a href="./login.html" id="loginBut" class="pull-left">登录</a><a href="./register.html" id="regBut" class="pull-right">注册</a></p>
+                        <p>
+                            <input type="text" name="user" placeholder="邮箱/用户名/已验证手机" id="username"/><br />
+                        </p>
+                        <p>
+                            <input type="password" name="pwd" placeholder="密码" id="pwd"/>
+                        </p>
+                        <p><button type="button" class="formBut" id="btn">登&emsp;录</button></p>
+                        <span> 
+                            <a href="#"><img src="images/QQ.png" />QQ</a>&emsp;
+                            <a href="#"><img src="images/weixin.png"/>微信</a>&emsp;
+                            <a href="register.html"><img src="images/pwd-icons-new_08.png"/>立即注册</a>
+                        </span>
+                        <p>忘记密码?&emsp;</p>
+                    </form>
+    </div>
+    <!-- 页脚 -->
+    <div class="footer container-fluid">
+         <div class="container">
+            <p>@2014-2019道口贷 All rights redwerc北京道口贷科技有限公司 投资有风险，贷款需谨慎</p>
+        </div>
+    </div>
+     <!-- jquery.js -->
+    <script src="./lib/jquery/jquery.js"></script>
+    <!-- 引入表单验证 -->
+    <script src="./lib/jquery/jquery.validate.min.js"></script>
+     <!-- bootstrap.min.js -->
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- echarts.js引入 -->
+    <script src="./lib/echarts/echarts.js"></script>
+    <!-- 引入login.js -->
+    <script src="./js/login.js"></script>
+</body>
+</html>

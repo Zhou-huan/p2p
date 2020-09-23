@@ -1,0 +1,73 @@
+<link rel="stylesheet" href="../../dist/css/borrowapply.min.css">
+<h2 class="borrow-title">借款申请</h2>
+<div class="row borrow-detail">
+    <div class="col-md-4 borrowContent">
+        <div>
+            <button class="btn" id="btnType">信用贷</button>
+        </div>
+        <div>
+            <p>
+               借款金额：<input id="borrowmoney" type="text"> 元
+            </p>
+            <p>
+                借款利息：<input id="interest" type="text">%
+            </p>
+            <p>
+                借款期限：
+                <select name="" id="borrowtime" class="days">
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="9">9</option>
+                    <option value="12"></option>
+                </select>月
+            </p>
+            <p>
+                还款方式：
+                <input class="repaytype" type="radio" checked name='repaytype' value="0">按月分期
+                <input class="repaytype" type="radio" checked name='repaytype' value="1">按月到期
+            </p>
+            <!-- 最小投标 -->
+            <p>
+                最小投标：
+                <input type="text" id="minbid">元
+            </p>
+            <!-- 投标奖金 -->
+            <p>
+                投标奖金：
+                <input type="text" id="bouns">%
+            </p>
+             <!-- 招标天数 -->
+             <p>
+                招标天数：
+                <select class="days" id="days">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                天
+            </p>
+            <!-- 借款标题 -->
+            <p>
+                借款标题：
+                <input id="title" type="text">
+            </p>
+            <!-- 借款描述 -->
+            <p>
+                借款描述： <br>
+                <textarea name="" id="info" cols="40" rows="3"></textarea>
+            </p>
+            <p><button id="borrowApplyBtn" class="btn btn-primary" type="button">发布借款申请</button></p>
+        </div>
+    </div>
+    <div class="col-md-8">
+       
+    </div>
+</div>
+<script src="../../lib/jquery/jquery.pack.js"></script>
+<script src="../../lib/jquery/jquery.SuperSlide.js"></script>
+<script src="../../js/borrowapply.js"></script>

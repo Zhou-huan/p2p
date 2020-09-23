@@ -1,0 +1,123 @@
+@baseColor:#5b337b;
+ul,li,body,ol,dl,p,h3{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+
+//所有a标签过渡
+a{
+    &:hover{
+        color: #f86965 !important;
+        text-decoration: none;
+    } 
+}
+// 顶部导航
+.top-nav {
+   border: 0;
+   margin-bottom:0;
+   .navfont{
+       a{
+        font-size: 20px;
+      
+       }
+   }
+}
+.headerfix{
+    height:160px;
+    .header{
+        position: fixed;
+        z-index:1000;
+        width: 100%;
+    }
+    // 内容导航
+    .content-nav{
+        background-color: #fff;
+        border: 0;
+        padding:10px 0;
+        .leftline{
+            border-left: 1px solid #ccc;
+            padding-left: 30px;
+            margin-top:20px;
+            .red{
+                color: #b33a5b;
+                margin: 0;
+            }
+            .fstyle{
+                font-family:'宋体';
+                font-size:20px;
+                color: #888;
+            }
+        }
+       
+        .cnav{
+            font-size: 20px;
+            a{
+                color: #000 !important;
+                padding-top:36px;
+                &:hover{
+                    color: #f86965 !important;
+                }
+            }
+        }
+    }
+}
+
+//尾部
+.footer{
+    padding-top: 36px;
+    background-color:@baseColor;
+    a{
+        color: #ccc !important;
+    }
+    //尾部左侧
+    .footernav{
+        list-style: none;
+       display: flex;
+        color: #fff;
+        font-size: 16  px;
+        li{
+            padding-right:2%;
+            
+        }
+    }
+    .footerlink{
+        list-style: none;
+         color: rgb(202, 202, 202);
+         font-size: 14px;
+         overflow: hidden;
+         li{
+             height:30px;
+            padding-right:2%;
+            line-height: 30px;
+            float: left;
+         }
+    }
+    .logolink{
+        list-style: none;
+        li{
+           float: left;
+           margin-right:5%;
+           line-height: 60px;
+        }
+    }
+    p{
+        color: #888;
+        float: left;
+    }
+    //尾部右侧
+    .fright{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       p{
+        font-size:18px;
+       }
+       h3{
+           color: #f86965;
+           margin:10% 0;
+    }
+    }
+}

@@ -1,0 +1,27 @@
+
+.margin{
+    margin-top:20px;
+}
+
+.enroll__box{
+    h4{
+        font-weight:600;
+        padding-bottom:15px;
+    }
+    p{
+        
+        margin-bottom:20px;
+        padding-left:2em;
+        em{
+            color:#f86965;
+        }
+    }
+    h5{
+        padding-left:2em;
+        color:#924ea9;
+    }
+    span{
+        padding-left:2em;
+    }
+    
+}

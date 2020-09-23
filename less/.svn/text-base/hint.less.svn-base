@@ -1,0 +1,30 @@
+
+a{
+    color:#333;
+    &:hover{
+        text-decoration: none;   
+    }
+}
+
+.right{
+    text-align:right
+}
+
+
+.hint__box{
+
+    .box__top{
+        border-bottom:1px solid #ccc;
+    }
+    h4{
+        margin:20px 0;
+        font-weight: 600;
+    }
+    p{
+        text-indent:2em;
+        line-height: 30px;
+    }
+    h5{
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="../../dist/css/contact.min.css">
+
+<div class="contact__box">
+    <h4>联系我们</h4>
+    <ul>
+        <li>公司名称 ： 北京道口贷科技有限公司</li>
+        <li>公司地址 ： 北京市海淀区花园东路10号高德大厦6层606-611室</li>
+        <li>客服电话 ： 400 - 622 - 7618</li>
+        <li>客服邮箱 ： Hello@daokoudai.com</li>
+        <li>商务合作 ： bd@daokoudai.com</li>
+        <li>企业合作 ： co@daokoudai.com</li>
+        <li>投诉/举报 ： 010-62368660</li>
+        <li class="color">道口贷目前暂时没有线下加盟/线下门店商业模式，也不涉及现金贷业务，感谢关注</li>
+    </ul>
+</div>

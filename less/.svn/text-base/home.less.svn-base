@@ -1,0 +1,254 @@
+@baseColor:#5b337b;
+//轮播图部分
+.gray{
+    color: #888;
+}
+.main{
+    .slide{
+        position: relative;
+        top: 0;
+        left:0;
+         //轮播控件
+        .circle {
+            margin-bottom:-12px;
+            li{
+                background-color: #fff;
+            }
+            .active{
+                background-color: @baseColor !important;
+            }
+        }
+        .sliders{
+            img{
+                height: 300px !important;
+            }
+        }
+                //固定注册框部分
+        .regBox{
+            background-color: rgb(231, 229, 229);
+            position: absolute;
+            right: 186px;
+            top: 48px;
+            width: 260px;
+            height: 220px;
+            text-align: center;
+            padding-top:20px;
+            .numred{
+                color: crimson;
+            }
+            span{
+                color: crimson;
+            }
+            .butnow{
+                display: block;
+                width: 200px;
+                height:30px;
+                margin-left:30px;
+                line-height:30px;
+                border: 0;
+                background-color: crimson;
+                color: #fff;
+            }
+            .homeLogin{
+                display: block;
+                color: @baseColor;
+                margin-top: 10px;
+                padding-right:30px;
+            }
+        }
+    }
+  
+//内容顶部logo部分
+.contentTop{
+  display: flex;
+  justify-content: space-between;
+  li{
+      flex: 1;
+      padding:20px 0;
+      display: flex;
+      div{
+          margin:0 2%;
+        h4{
+            color:@baseColor;
+        }
+        p{
+            color: #888;
+        }
+      }
+  }
+}
+//中间内容部分
+.content{
+    background-color: #f5f2fa;
+    padding:40px 0;
+    .cTitle{
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        height:60px;
+        line-height: 60px;
+    }
+    .firstCont{
+        background-color: #fff;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left:0;
+        div{
+            display: flex;
+            height:70px;
+            justify-content: space-around;
+        }
+        .wanli{
+            justify-content: flex-start;
+            .wanliItme{
+                background-color:#a8d1ff;
+                height:25px;
+                width:8%;
+                line-height: 25px;
+                margin-right:2%;
+                color: #fff;
+                cursor: pointer;
+                &:hover{
+                    color:tomato;
+                }
+            }
+        }
+        .detailCon{
+            font-size:18px;
+            color: rgb(114, 112, 112);
+            .violetFont{
+                color: @baseColor;
+            }
+            .redFont{
+                color: tomato;
+                font-size: 30px;
+                margin-top: -10px;
+            }
+            .blackFont{
+                color: #000;
+            }
+            small{
+                font-size: 14px;
+                padding-top:20px;
+            }
+            //星星等级
+           .stars{
+               margin-top: -36px;
+            .starbox{
+                width: 120px;
+                height:50px;
+                margin:0 auto;
+                background: url(../../images/xx2.png) no-repeat 0 0;
+                position: relative;
+                transform: scale(0.75);
+                margin-top:35px;
+                .star{
+                    width:50%;
+                    height: 50px;
+                    background: url(../../images/xx1.png) no-repeat 0 0px;
+                    position: absolute;
+                    top:0;
+                    left:0;
+                }
+            }
+           }
+           //进度条
+           .progressline{
+               display: flex;
+               flex-direction: column;
+               height:70px;
+               color: #999;
+               margin-top:-20px;
+                cursor: pointer;
+                  &:hover{
+                    opacity: 0.8;
+                  }
+              
+           }
+        }
+    }
+}
+/* 中下部logo群内容 */
+.conLogos{
+    padding-bottom:20px;
+    background-color: #fff;
+    .logoTitle{
+        display: flex;
+        height: 100px;
+        justify-content: space-around;
+        span{
+            font-size:26px;
+            display: flex;
+            width: 20%;
+            justify-content: center;
+            align-items: center;
+            color: rgb(97, 96, 96);
+        }
+    }
+    .logoHome{
+        display: flex;
+        padding:40px 0;
+        justify-content: space-between;
+        h3{
+            font-size: 30px;
+            color: @baseColor;
+        }
+        p{
+            color: #888;
+            padding-top: 20px;
+        }
+    }
+    .logoimg{
+        img{
+            margin:2%;
+            width: 80px;
+            height:40px;
+            cursor: pointer;
+        }
+    }
+}
+//内容下部
+.cgray{
+    background-color: #e8ecf0;
+    .padLR0{
+        padding:0;
+        .title01{
+            text-align: center;
+            padding:20px 0;
+        }
+        .padTB20{
+            padding:20px 0;
+            .imgs{
+                width:110px;
+                margin-top:5px;
+            }
+            .cbottom-item{
+                width: 250px;
+                a{
+                    color: rgb(121, 120, 120);
+                }
+                dt{
+                    line-height:45px;
+                    font-size:16px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .notices{
+           margin-left:80px;
+           li{
+               line-height:34px;
+               a{
+                   color: #666;
+               }
+               span{
+                  float: right;
+                  color: #999;
+               }
+           }
+        }
+      
+    }
+}
+}
